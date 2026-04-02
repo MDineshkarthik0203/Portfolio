@@ -5,8 +5,8 @@ from .models import ContactMessage
 from .serializers import ContactMessageSerializer
 from django.shortcuts import render
 
-def portfolio(request):
-    return render(request, 'Portfolio.html')
+def index(request):
+    return render(request, 'index.html')
 
 class ContactView(APIView):
 
